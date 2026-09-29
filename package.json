@@ -1,0 +1,11 @@
+{
+  "name": "koti",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test supabase/functions/_shared/**/*.test.ts"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
